@@ -5,6 +5,7 @@ import Services from "../../blocks/services/services";
 import Gallery from "../../blocks/gallery/gallery";
 import News from "../../blocks/news/news";
 import Contacts from "../../blocks/contacts/contacts";
+import Footer from "../../layout/footer/footer";
 
 function MainPage() {
   return (
@@ -15,6 +16,7 @@ function MainPage() {
       <Gallery />
       <News />
       <Contacts />
+      <Footer />
     </>
   );
 }

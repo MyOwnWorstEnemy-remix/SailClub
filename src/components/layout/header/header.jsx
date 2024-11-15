@@ -6,7 +6,6 @@ import HeaderIcon from "../../../assets/icon.svg";
 import { StyledHeader } from "./styles";
 
 function Header() {
-  console.log("logo icon", HeaderIcon);
   return (
     <StyledHeader>
       <Logo />
