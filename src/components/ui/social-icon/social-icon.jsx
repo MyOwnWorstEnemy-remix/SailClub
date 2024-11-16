@@ -1,12 +1,12 @@
 import React from "react";
 import { StyledA } from "./styles";
 
-function SocialIcon(
+function SocialIcon({
     name,
     src,
     width,
     height
-) {
+}) {
     return (
         <>
             <StyledA>

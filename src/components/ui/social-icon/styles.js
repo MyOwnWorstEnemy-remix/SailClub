@@ -11,4 +11,5 @@ export const StyledA = styled(A)`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;

@@ -4,7 +4,6 @@ import { TitleSize } from "../title/title"
 import Price from "../price/price"
 
 function YachtCard({name, src, description, features, price}) {
-    console.log(features);
     return(
     <Card>
         <StyledTitle size={TitleSize.SMALL}>{name}</StyledTitle>
